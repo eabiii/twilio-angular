@@ -1,0 +1,28 @@
+#preview,
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#preview {
+  border: solid 6px rgb(34, 34, 34);
+  background-color: rgb(38, 38, 38);
+}
+
+.grid-content {
+  grid-area: content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+  border-top: solid 6px #F22F46;
+  border-bottom: solid 6px #F22F46;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 2fr 4fr 2fr;
+  grid-template-rows: 1fr 7fr 1fr;
+  grid-template-areas: "top-left . top-right""left content right""bottom-left . bottom-right";
+}

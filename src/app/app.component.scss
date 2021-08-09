@@ -26,3 +26,16 @@ video {
   grid-template-rows: 1fr 7fr 1fr;
   grid-template-areas: "top-left . top-right""left content right""bottom-left . bottom-right";
 }
+
+
+.btn-primary {
+  font-size: 25px;
+  background-color: #FF9F00;
+  border-radius: 123px;
+  border: 2px solid #FF9F00 !important;
+  height: 50px;
+  width: 80% !important;
+  margin: 10px;
+  color: #ffffff;
+
+}

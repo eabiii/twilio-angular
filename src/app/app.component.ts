@@ -29,6 +29,11 @@ export class AppComponent implements AfterViewInit {
     }
   }
 
+  onClick() {
+    this.twilioService.joinOrCreateRoom()
+
+  }
+
   private async initializeDevice(deviceId?: string) {
     try {
 
